@@ -1,6 +1,6 @@
 import math
 
-base=14
+base=int(input("input base"))
 height=13
 h=math.hypot(base,height)
 
