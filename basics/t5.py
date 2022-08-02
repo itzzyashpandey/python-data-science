@@ -14,4 +14,4 @@ for i in range(side):
         write(i, font=('arial', 14, 'normal'))
     left(360/side)
 
-mainloop()    
+mainloop()  
