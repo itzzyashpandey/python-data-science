@@ -4,11 +4,11 @@
 #2:comprehension
 #3: Lambda expresion
 
-comprehension:
+##comprehension:
 
-syntax
-newlist=[expresion, forloop, condition]
-example
-x=[2,5,4,6,7,8,4,9]
-x2=[i**2 for i in x]
-print(x2)
+#syntax
+#newlist=[expresion, forloop, condition]
+#example
+#x=[2,5,4,6,7,8,4,9]
+#x2=[i**2 for i in x]
+#print(x2)*/
