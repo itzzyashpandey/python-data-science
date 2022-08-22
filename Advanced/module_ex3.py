@@ -1,9 +1,9 @@
 import os 
 print("Current folder")
-print(os.getcwd())
-print(os.listdir())
+print(os.getcwd()) #place where code run 
+print(os.listdir()) #files in cwd
 print("c drive content")
-os.chdir('C:\\')
+os.chdir('C:\\') #place where we want to run code 
 print(os.getcwd())
 print(os.listdir())
 
