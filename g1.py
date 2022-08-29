@@ -13,7 +13,7 @@ def draw():
     screen.draw.text('this is gameprogramming', (50,80), color='yellow', fontsize=50)
     screen.draw.rect(box,color='white',)
     screen.draw.filled_rect(box2,color='cyan')
-     screen.draw.text('🤩', (20,80))
+    
     
     
 def update():
