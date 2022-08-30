@@ -49,6 +49,8 @@ def enemy_movement():
         e.x -= espeed
     if p.y < e.y:
         e.y -= espeed
+    if p.colliderect(e):
+        p.image = 'splat'
         
         
 def update_score():
@@ -58,8 +60,8 @@ def update_score():
         score +=10
         c.pos=(randint(0,WIDTH),randint(0,HEIGHT))
         sounds.s1.play()
-    elif p.colliderect(e):
-        stop    
+    
+            
             
             
             
