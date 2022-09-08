@@ -25,7 +25,7 @@ print(a.symmetric_difference(b))
 #check sub set
 x={2,3,4,7}
 y={2,3,4,7,6,5,8}
-print(x.issubset(y))
+print("is it:",x.issubset(y))
 print(y.issuperset(x))
 z={3,5,8,10,11}
 print(x.issubset(z))

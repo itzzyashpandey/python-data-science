@@ -10,6 +10,11 @@ fruits.append("kiwi")
 
 print(fruits)
 
+if 'Mango' in fruits:
+    print(1)
+else:
+    print(0)
+
 fruits.insert(2,"strawberry")
 print(fruits)
 

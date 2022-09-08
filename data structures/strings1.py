@@ -16,8 +16,7 @@ print("str[1]=", str[1])
 print("str[-1]=", str[-1])    
 print("str[-2]=", str[-2])   
 
-stp='''the
-india''' 
+stp='''the india''' 
 
 print(stp[4])
     

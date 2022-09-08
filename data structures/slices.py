@@ -1,6 +1,6 @@
 #getting a slice
 s="digipodium"
-slice1=s[4:7]
+slice1=s[4:len(s)]
 print(slice1)
 
 slice2=s[:4]#default is zero

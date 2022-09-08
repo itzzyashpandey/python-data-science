@@ -20,7 +20,7 @@ names=["Bruse Wayne","Clark Krent", "Wally West"]
 intials=[]
 
 for name in names:
-    parts= names.split()
+    parts= name.split()
     intials.append(parts[0][0]+parts[-1][0])  
 print(intials)
 #comprehension
