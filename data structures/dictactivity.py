@@ -15,3 +15,5 @@ for i,j in marks_raja.items():
 for i,j in marks_raju.items():
     print(i,j)
     
+    
+print(marks_yash("name"))

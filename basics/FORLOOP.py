@@ -1,6 +1,6 @@
 x="python"
 for i in x:
-    print(i)
+    print(i,end='')
     
 fruits= ["apple", "banana", "lemon"]
 for item in fruits:
