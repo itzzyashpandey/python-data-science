@@ -19,14 +19,16 @@ def remove_links(tweet):
     tweet = re.sub(r'http\S+',' ',tweet)
     tweet = re.sub(r'www.\S+',' ',tweet)
     tweet = re.sub(r'[^a-z0-9]',' ',tweet)
-    
+    return tweet
     
     
     
 def get_sentiment(tweet):
-    blob = TextBlob(tweet)
-    return blob.sentiment.polarity
-
+    try:
+        blob = TextBlob(tweet)
+        return blob.sentiment.polarity
+    except:
+        return np.nan
 
 def get_sentiment_name(sentiment):
     if sentiment==0:
